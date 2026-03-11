@@ -1,0 +1,17 @@
+{
+  "name": "stremio-smart-recommendations",
+  "version": "1.0.0",
+  "description": "Addon Stremio recommandations via TMDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "stremio-addon-sdk": "^1.6.10"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "license": "MIT"
+}
